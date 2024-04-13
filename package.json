@@ -1,0 +1,16 @@
+{
+  "name": "bun-dasar",
+  "module": "index.js",
+  "type": "module",
+  "devDependencies": {
+    "@types/react": "^18.2.78",
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0"
+  },
+  "workspaces": ["packages/*"]
+}
